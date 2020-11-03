@@ -8,7 +8,7 @@ public class Dog extends Pet {
     {
         ///THIS
         super(name, age);
-        this.Breed = Breed;
+        this.Breed = dogBreed;
     }
 
     public Dog()
@@ -26,18 +26,18 @@ public class Dog extends Pet {
     // toString method
     public String toString()
     {
-        String str = this.getName() + ", " + this.getAge() + ", " + this.getgetBreed();
+        String str = this.getName() + ", " + this.getAge() + ", " + this.getBreed();
         return str;
     }
 
     // Getter
-    public String getgetBreed() 
+    public String getBreed() 
     {
         return this.Breed;
     }
 
     // Setter
-    public void setgetBreed(String Breed) 
+    public void setBreed(String Breed) 
     {
         
             this.Breed = Breed;
