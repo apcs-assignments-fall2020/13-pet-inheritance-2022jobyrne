@@ -5,6 +5,7 @@ public class Pet {
 
     // Constructor: creates a Pet with the given first name and last name
     public Pet(String name, int age) {
+        //super(a, b);
         this.name = name;
         this.age = age;
     }
